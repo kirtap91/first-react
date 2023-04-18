@@ -9,7 +9,7 @@ function Category() {
     <List>
         <SLink to={"/cuisine/Italian"}>
             <FaPizzaSlice />
-            <h4>Ítalian</h4>
+            <h4>Italian</h4>
         </SLink >
         <SLink to={"/cuisine/American"}>
             <FaHamburger />
@@ -23,7 +23,7 @@ function Category() {
             <GiChopsticks />
             <h4>Japanese</h4>
         </SLink>
-        <SLink to={"/cuisine/Lacto-Vegetarian"}>
+        <SLink to={"/diet/Lacto-Vegetarian"}>
             <GiChopsticks />
             <h4>Lacto-Vegetarian</h4>
         </SLink>
